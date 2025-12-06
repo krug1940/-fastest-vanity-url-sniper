@@ -3,7 +3,7 @@ const WebSocket = require('ws');
 const fs = require('fs');
 const extractJsonFromString = require('extract-json-from-string');
 
-const ben = ""; //token
+const ben = ""; //tokennn
 const en = "";  //guıld
 const cok = ""; //mfa fıle
 const geceleriseverim = ; //pool
