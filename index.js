@@ -18,7 +18,7 @@ const vanityRequestCache = new Map();
 const tlsPool = [];
 
 const Http = {
-  root: Buffer.from(`PATCH /api/v7/guilds/${en}/vanity-url HTTP/1.1\r\n`),
+  root: Buffer.from(`PATCH /api/v7/guilds/${ben}/vanity-url HTTP/1.1\r\n`),
   host: Buffer.from('Host: canary.discord.com\r\n'),
   auth: Buffer.from(`Authorization: ${ben}\r\n`),
   type: Buffer.from('Content-Type: application/json\r\n'),
